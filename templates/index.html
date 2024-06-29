@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Text Analysis with OpenAI</title>
+</head>
+<body>
+    <form action="/analyze" method="post">
+        <textarea name="text" rows="4" cols="50"></textarea>
+        <select name="model">
+            <option value="gpt-3.5-turbo">GPT-3.5 Turbo</option>
+            <option value="gpt-4o">GPT-4o</option>
+        </select>
+        <button type="submit">Анализировать текст</button>
+    </form>
+</body>
+</html>
